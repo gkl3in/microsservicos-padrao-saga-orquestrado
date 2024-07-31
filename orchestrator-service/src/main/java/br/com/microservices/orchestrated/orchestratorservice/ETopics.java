@@ -19,5 +19,5 @@ public enum ETopics {
     INVENTORY("inventory-fail"),
     NOTIFY_ENDING("notify-ending");
 
-    private String topic;
+    private final String topic;
 }
